@@ -1,11 +1,12 @@
 import { Mobile } from './punto1';
 
 
-let nokia3210 = new Mobile( 'Nokia', 'Nokia3210', 'Nokia', 125, 'Negro', false, 2, 120 );
+export let nokia3210: Mobile = new Mobile( 'Nokia', 'Nokia3210', 'Nokia', 228, 'Gris', true, 1, 120 );
 
-let iPhone3G = new Mobile( 'iPhone', 'iPhone3G', 'iPhone', 200, 'Blanco', false, 4, 500 );
+export let iPhone3G: Mobile = new Mobile( 'iPhone', 'iPhone3G', 'iPhone', 450, 'Azul', false, 6, 500 );
 
-let samsungGalaxy10 = new Mobile( 'Samsung', 'SamsungGalaxy10', 'Samsung', 300, 'verde', true, 5, 600 );
+export let samsungGalaxy10: Mobile = new Mobile( 'Samsung', 'SamsungGalaxy10', 'Samsung', 1200, 'verde', true, 4, 600 );
+
 
 console.log( nokia3210 );
 console.log( iPhone3G );
