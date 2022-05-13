@@ -1,6 +1,5 @@
 import { Mobile } from '../fundamentos2/punto1';
 import { MobileLibrary } from './punto1-3';
-import { localPriceCalculation } from './punto4-3';
 
 
 
@@ -25,15 +24,14 @@ let store: MobileLibrary = new MobileLibrary('Tienda de Moviles', 'Calle Atocha 
 console.log( store.getName() );
 console.log( store.getLocation() );
 console.log( store.getMobiles() );
+console.log( store.getMobiles() );
+console.log( store.getTotalPrice() );
 
-let totalPrice: number = localPriceCalculation( mobiles );
 
 store.setName('MediaMark');
 store.setLocation('Calle Sol 78');
-store.setTotalPrice( totalPrice );
 
-console.log( store );
-
+store.printLibrary();
 
 
 
