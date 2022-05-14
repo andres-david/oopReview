@@ -62,7 +62,7 @@ export class Punto{
 
     calcularMasCercano( puntos: Punto[] ): Punto{
 
-        let punto: Punto = puntos[1];
+        let punto: Punto = puntos[0];
 
         for( let i = 0; i < puntos.length; i++ ){
              
