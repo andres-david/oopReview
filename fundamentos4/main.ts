@@ -1,4 +1,6 @@
 import { Punto } from "./clase-punto";
+import { Triangulo } from './clase-triangulo';
+
 
 let coor: Punto = new Punto( 245, 368 );
 
@@ -19,4 +21,10 @@ let coor3: Punto = new Punto ( 335, 442 );
 
 let arrCoor: Punto[] = [coor2, coor3];
 
-console.log(coor.calcularMasCercano( arrCoor ));
+// console.log(coor.calcularMasCercano( arrCoor ));
+
+/*****************************   Punto 16   ************************ */
+
+let triangulo: Triangulo = new Triangulo( coor, coor2, coor3 );
+
+console.log( triangulo.calcularLongitudLados() );
